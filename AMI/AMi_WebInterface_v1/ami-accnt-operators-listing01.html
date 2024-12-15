@@ -1,0 +1,624 @@
+<HTML><!-- InstanceBegin template="/Templates/ami-accountant-menu&body-listing-operators.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" -->
+<TITLE>AMI - Operator Invoices Listing</TITLE>
+<!-- InstanceEndEditable --> 
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style type="text/css">
+</style>
+<link href="ami-css-01.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript" src="ami-code-popups.js" type="text/JavaScript">
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+</HEAD>
+<BODY BGCOLOR=#CACACA background="images/backgroundtile.gif" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onLoad="MM_preloadImages('images/ami-op-menu-home-over.gif','images/ami-op-menu-jb-over.gif','images/ami-op-menu-groups-over.gif','images/ami-op-menu-reports-over.gif','images/ami-myaccount-over-01.gif','images/ami-logout-over-01.gif','images/ami-help-over-01.gif','images/ami-acnt-menu-home-over.gif','images/ami-acnt-menu-lic-over.gif','images/ami-acnt-menu-royalt-over.gif','images/ami-acnt-menu-status-over.gif','images/ami-acnt-menu-ops-over.gif','images/ami-acnt-menu-reports-over.gif','images/ami-pubcatalog-over.gif')">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/topstretch.gif">
+  <tr>
+    <td><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr valign="top"> 
+          <td> 
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td rowspan="3" align="left" valign="top"> 
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        
+                      <td>
+												<TABLE WIDTH=435 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+													<tr>
+														<td COLSPAN=4><img src="images/spacer.gif" width="1" height="1"></td>
+                          </tr>
+                          <TR> 
+                            <TD height="49" COLSPAN=3 valign="top"> <img src="images/AMiLogo.gif" width=145 height=49 alt=""></TD>
+                            <TD COLSPAN=5 align="left" valign="middle" class="page-title"><!-- InstanceBeginEditable name="PageTitle" --><img src="images/icon-user-L.gif" width="32" height="30" align="absmiddle">&nbsp;Operator Invoices Summary<!-- InstanceEndEditable --></TD>
+                          </TR>
+                          <TR> 
+                            <TD width="34" ROWSPAN=2 valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <IMG SRC="images/menuslice-left.gif" ALT="" HEIGHT=25></TD>
+                            <TD width="74" height="22" valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <a href="ami-accnt-home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','images/ami-acnt-menu-home-over.gif',1)"><img src="images/ami-acnt-menu-home.gif" alt="Home" name="Home" height="22" border="0" id="Home"></a></TD>
+                            <TD COLSPAN=2 valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <a href="ami-accnt-licensees-royalties-summary01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Licensees','','images/ami-acnt-menu-lic-over.gif',1)"><img src="images/ami-acnt-menu-lic.gif" alt="Licensees" name="Licensees" height="22" border="0" id="Licensees"></a></TD>
+                            <TD width="84" valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <a href="ami-accnt-musicroyalties-listing01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MusicRoyalties','','images/ami-acnt-menu-royalt-over.gif',1)"><img src="images/ami-acnt-menu-royalt.gif" alt="Music Royalties" name="MusicRoyalties" height="22" border="0" id="MusicRoyalties"></a></TD>
+                            <TD width="83" valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <a href="ami-accnt-musicstatus-listing01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MusicStatus','','images/ami-acnt-menu-status-over.gif',1)"><img src="images/ami-acnt-menu-status.gif" alt="Music Status" name="MusicStatus" height="22" border="0" id="MusicStatus"></a></TD>
+                            <TD width="76" valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <img src="images/ami-acnt-menu-ops-over.gif" alt="Operators" name="Operators" height="22" border="0" id="Operators"></TD>
+                            <TD width="76" valign="top" background="images/menuslice-mid-stretch.gif">
+															<a href="ami-accnt-reports01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Reports','','images/ami-acnt-menu-reports-over.gif',1)"><img src="images/ami-acnt-menu-reports.gif" alt="Reports" name="Reports" height="22" border="0"></a></TD>
+                            <TD width="36" ROWSPAN=2 valign="top" background="images/menuslice-mid-stretch.gif"> 
+                              <IMG SRC="images/menuslice-right.gif" HEIGHT=25 ALT=""></TD>
+                          </TR>
+                          <TR> 
+                            <TD height="3" COLSPAN=7 valign="top"> <IMG SRC="images/menuslice-middle.gif" WIDTH=478 HEIGHT=3 ALT=""></TD>
+                          </TR>
+                          <tr> 
+                            <td height="0"></td>
+                            <td></td>
+                            <td width="53"></td>
+                            <td width="30" align="left"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </TABLE></td>
+                        <td></td>
+                      </tr>
+                    </table>
+                  </td>
+                <td width="4" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+              </tr>
+              <tr> 
+                <td height="12"></td>
+              </tr>
+              <tr> 
+                <td height="12"></td>
+              </tr>
+            </table>
+            <table width="100%" border="0" cellpadding="3" cellspacing="0" bgcolor="#566A80">
+              <!--DWLayoutTable-->
+              <tr> 
+                <td width="100%" height="18" valign="top" bgcolor="#566A80" class="table-path"><span class="page-context"><font color="#FFFFFF">go 
+                  back:</font></span> <!-- InstanceBeginEditable name="Links" --><a href="ami-accnt-home.html"><span class="page-context-link"><font color="#B4C9E0">Home</font></span></a><span class="page-context-short-title"><font color="#B4C9E0"> |</font> Operator Invoices Summary</span><!-- InstanceEndEditable --></td>
+              </tr>
+            </table></td>
+          <td></td>
+          <td> 
+            <table border="0" align="center" cellpadding="3" cellspacing="0">
+              <tr> 
+                <td valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="80"><a href="ami-detail-operator.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MyAccount','','images/ami-myaccount-over-01.gif',1)"><img src="images/ami-myaccount-01.gif" alt="My Account Details" name="MyAccount" width="78" height="14" border="0" id="MyAccount011"></a></td>
+                      <td width="51"><a href="index.html" target="_top" onMouseOver="MM_swapImage('Logout','','images/ami-logout-over-01.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/ami-logout-01.gif" alt="Logout Now" name="Logout" width="49" height="14" border="0" id="Logout011"></a></td>
+                      <td width="52"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Help','','images/ami-help-over-01.gif',1)"><img src="images/ami-help-01.gif" alt="Help" name="Help" width="46" height="14" border="0" id="Help011"></a></td>
+                    </tr>
+                    <tr> 
+                      <td height="45" colspan="3" align="center" class="role-username"> 
+                        <span class="role-title">Accountant:</span> Stephanie</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            <table width="100" border="0" cellpadding="3" cellspacing="0" bgcolor="#566A80">
+              <tr>
+                <td><p> <a href="ami-accnt-catalog.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Pub','','images/ami-pubcatalog-over.gif',1)"><img src="images/ami-pubcatalog.gif" alt="Publish Catalog" name="Pub" width="179" height="21" border="0"></a></p>
+                  </td>
+              </tr>
+            </table></td>
+        </tr>
+        <tr> 
+          <td ><img src="images/spacer.gif" width="463" height="1"></td>
+          <td width="4"><img src="images/spacer.gif" width="4" height="1"></td>
+          <td width="189"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+ 
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CACACA">
+  <tr> 
+    <td height="100%" valign="top"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr bgcolor="#000000"> 
+          <td height="1" valign="top"><img src="images/spacer.gif" width="547" height="1"></td>
+          <td height="1" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+          <td height="1" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+        </tr>
+        <tr> 
+          <td rowspan="3" align="left" valign="top" bgcolor="#DDDDDD"> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr> 
+                <td width="10" valign="top"><img src="images/spacer.gif" width="10" height="1"> 
+                </td>
+                <td width="778" valign="top"><table width="100%" border="0" cellpadding="3" cellspacing="0">
+                    <tr> 
+                      <td width="766" valign="top"><!-- InstanceBeginEditable name="ActionTitle" --><span class="page-action-instructions">Listing of Operators' Invoices</span><!-- InstanceEndEditable --></td>
+                    </tr>
+                    <tr> 
+                      <td valign="top"><!-- InstanceBeginEditable name="ActionInstructions" -->
+                        <p>April 1, 2003 to April 30, 2003<br>
+                          <span class="page-action-help">You can view an Operator's Detailed Invoice Statement by clicking on the Invoice button.</span></p>
+                        <!-- InstanceEndEditable --></td>
+                    </tr>
+                  </table>
+				  </td>
+                <td width="10"></td>
+                <td width="240" align="right" valign="bottom"><table width="230" border="0" cellspacing="0" cellpadding="5">
+                    <tr> 
+                      <td align="right"> <div class="page-container-title"> 
+                          <p class="table-body"><!-- InstanceBeginEditable name="ContainerName" --><!-- InstanceEndEditable --><br>
+                            <!-- InstanceBeginEditable name="ContainerNum" --><span class="page-container">Operators: </span><span class="page-container-amount">NUM</span><!-- InstanceEndEditable --></p>
+                        </div></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            </td>
+          <td width="16" valign="top" bgcolor="#DDDDDD"><div align="right"><img src="images/table-topright.gif" width="16" height="16"></div></td>
+          <td width="4" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/table-topright-edge.gif" width="4" height="18"></td>
+        </tr>
+        <tr> 
+          <td rowspan="2" bgcolor="#DDDDDD"></td>
+          <td height="12" background="images/table-edge-black.gif" bgcolor="#000000"></td>
+        </tr>
+        <tr> 
+          <td height="12" background="images/table-edge-black.gif" bgcolor="#000000"></td>
+        </tr>
+      </table>
+      <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td valign="top"> <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td valign="top" bgcolor="#DDDDDD"> <!-- InstanceBeginEditable name="TableMultiSelect" -->
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#4F728C">
+                    <!--DWLayoutTable-->
+                    <tr> 
+                      <td width="50" align="right" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="22" align="center" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td height="20" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads">Name 
+                        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('ReSort02','','images/table-sort-up-on.gif',1)"><img src="images/table-sort-down-on.gif" alt="Reverse Sort" name="ReSort02" width="13" height="14" border="0"></a></td>
+                      <td height="20" align="right" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads">Current Invoice Amount <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Sort03','','images/table-sort-down-on.gif',1)"><img src="images/table-sort-down-off.gif" alt="Sort" name="Sort03" width="13" height="14" border="0"></a></td>
+                      <td width="8" align="left" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left" valign="middle" bgcolor="#9BB0CA" class="table-listing-column-heads"><img src="images/spacer.gif" width="3" height="14">View</td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="22" align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 1</td>
+                      <td height="20" align="right">$&nbsp; 450.23</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0114','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0114" width="38" height="11" border="0" id="Invoice0114"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="22" align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 2</td>
+                      <td height="20" align="right">$ &nbsp;&nbsp; 56.12</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0115','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0115" width="38" height="11" border="0" id="Invoice011"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="22" align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 3</td>
+                      <td height="20" align="right">$ 1232.25</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0121','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0121" width="38" height="11" border="0" id="Invoice012"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right">
+<p>&nbsp;</p></td>
+                      <td width="22" align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 4</td>
+                      <td height="20" align="right">$&nbsp; 230.22</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left">
+<p><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0131','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0131" width="38" height="11" border="0" id="Invoice013"></a></p></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="22" align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 5</td>
+                      <td height="20" align="right">$&nbsp; 652.12</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0141','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0141" width="38" height="11" border="0" id="Invoice014"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="22" align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 6</td>
+                      <td height="20" align="right">$&nbsp;&nbsp;&nbsp; 32.65</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0151','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0151" width="38" height="11" border="0" id="Invoice015"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 7</td>
+                      <td height="20" align="right">$&nbsp; 892.77</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0161','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0161" width="38" height="11" border="0" id="Invoice016"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 8</td>
+                      <td height="20" align="right">$&nbsp; 238.66</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0171','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0171" width="38" height="11" border="0" id="Invoice017"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 9</td>
+                      <td height="20" align="right">$&nbsp;&nbsp;&nbsp; 78.54</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0181','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0181" width="38" height="11" border="0" id="Invoice018"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 10</td>
+                      <td height="20" align="right">$&nbsp;&nbsp;&nbsp; 42.00</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice0191','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice0191" width="38" height="11" border="0" id="Invoice019"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 11</td>
+                      <td height="20" align="right">$&nbsp;&nbsp; 326.19</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice01101','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice01101" width="38" height="11" border="0" id="Invoice0110"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 12</td>
+                      <td height="20" align="right">$&nbsp;&nbsp; 110.28</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice01111','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice01111" width="38" height="11" border="0" id="Invoice0111"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-light"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 13</td>
+                      <td height="20" align="right">$&nbsp;&nbsp;&nbsp; 84.92</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice01121','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice01121" width="38" height="11" border="0" id="Invoice0112"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr class="table-listing-dark"> 
+                      <td width="50" align="right"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td align="center"><img src="images/icon-user.gif" width="16" height="15" border="0" align="absmiddle"></td>
+                      <td height="20">Operator 14</td>
+                      <td height="20" align="right">$ &nbsp;&nbsp; 92.45</td>
+                      <td width="8" align="left"><!--DWLayoutEmptyCell-->&nbsp;</td>
+                      <td width="80" align="left"><a href="ami-accnt-operator-invoice01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Invoice01131','','images/invoice-over.gif',1)"><img src="images/invoice.gif" alt="View Invoice" name="Invoice01131" width="38" height="11" border="0" id="Invoice0113"></a></td>
+                    </tr>
+                    <tr> 
+                      <td width="50" align="right" class="table-multiselect-rowspacer"></td>
+                      <td align="center" class="table-multiselect-rowspacer"></td>
+                      <td height="1" class="table-multiselect-rowspacer"></td>
+                      <td align="right" class="table-multiselect-rowspacer"></td>
+                      <td width="8" align="left" class="table-multiselect-rowspacer"></td>
+                      <td width="80" align="left" class="table-multiselect-rowspacer"></td>
+                    </tr>
+                    <tr bgcolor="#9BB0CA"> 
+                      <td width="50" align="right" class="table-body"><img src="images/spacer.gif" width="50" height="8"></td>
+                      <td width="22" align="center" class="table-body"><img src="images/spacer.gif" width="8" height="8"></td>
+                      <td height="8" class="table-body"> 
+                        <div align="left"><img src="images/spacer.gif" width="100" height="8"></div></td>
+                      <td height="8" align="right" class="table-body"> 
+                        <div align="left"><img src="images/spacer.gif" width="160" height="8"></div></td>
+                      <td width="8" align="left" class="table-body"><img src="images/spacer.gif" width="8" height="8"></td>
+                      <td width="80" align="left" class="table-body"><img src="images/spacer.gif" width="80" height="8"></td>
+                    </tr>
+                  </table>
+                  <!-- InstanceEndEditable --> <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                    <!--DWLayoutTable-->
+                    <tr> 
+                      <td valign="top"><!-- InstanceBeginEditable name="TotalsArea" -->
+                        <table width="100%" height="30" border="0" cellpadding="0" cellspacing="0">
+                          <tr class="report-summary-totals">
+                            <td width="80" align="left"><img src="images/spacer.gif" width="80" height="8"></td>
+                            <td align="left">Total of all Invoices</td>
+                            <td align="right">$&nbsp; 4597.35</td>
+                            <td width="80" align="right"><img src="images/spacer.gif" width="80" height="8"></td>
+                          </tr>
+                        </table>
+                        <!-- InstanceEndEditable --></td>
+                    </tr>
+                    
+                  </table>
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td><!-- InstanceBeginEditable name="MultiselectButtons" --><!-- InstanceEndEditable --></td>
+                    </tr>
+                  </table>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p></td>
+                <td width="4" background="images/table-rightedge.gif"><img src="images/table-rightedge.gif" width="4" height="1"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+    <td width="189" valign="top"> <table width="100" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td height="1" valign="top" bgcolor="#000000"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+        <tr> 
+          <td valign="top" bgcolor="#CACACA"> <!-- InstanceBeginEditable name="TaskArea" -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="3">
+              <tr> 
+                <td><form name="form2" method="post" action="">
+                    <table width="179" height="250" border="0" cellpadding="0" cellspacing="0">
+                      <!--DWLayoutTable-->
+                      <tr> 
+                        <td width="179" height="25" valign="top"><img src="images/task-top-search.gif" width="179" height="25"></td>
+                      </tr>
+                      <tr> 
+                        <td height="35" valign="top"><p><span class="task-text-instruct"><strong>Enter 
+                          Text to Search</strong></span><br>
+                             
+                            <input name="searchtext" type="text" class="task-formtext" id="searchtext2" value="All Operators" size="22">
+                          </p></td>
+                      </tr>
+                      
+                      
+                      <tr>
+                        <td height="15" align="left" valign="bottom">&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td height="35" align="left" valign="bottom"><span class="task-text-instruct"><strong>Show</strong><br>
+                          </span><span class="task-text-instruct"> 
+                          <select name="ShowItems" class="task-formtext" onChange="MM_jumpMenu('parent',this,0)">
+                            <option value="#" selected>All</option>
+                            <option value="#">12</option>
+                            <option value="#">50</option>
+                            <option value="#">100</option>
+</select>
+                          
+                          Operators per page</span></td>
+                      </tr>
+                      <tr> 
+                        <td height="35" align="left" valign="bottom"> <input name="searchgo" type="button" id="searchgo2" value="Find Now"> 
+                        </td>
+                      </tr>
+                      <tr>
+                        <td height="15" align="left" valign="bottom"><p>&nbsp;</p>
+                          <p>&nbsp;</p></td>
+                      </tr>
+                      <tr>
+                        <td height="15" align="left" valign="bottom"><img src="images/task-top-timeperiod.gif" width="179" height="25"></td>
+                      </tr>
+                      <tr>
+                        <td height="35" align="left" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                              <td colspan="4"><span class="task-text-instruct"></span>
+                                <select name="select" class="task-formtext" onChange="MM_jumpMenu('parent',this,0)">
+                                  <option value="#" selected>Custom time period...</option>
+                                  <option value="#">Last Year</option>
+                                  <option value="#">This Year</option>
+                                  <option value="#">Last Month</option>
+                                  <option value="#">Last Quarter</option>
+                                  <option value="#">This Month</option>
+                                </select></td>
+                            </tr>
+                            
+                            <tr>
+                              <td width="4%">&nbsp;</td>
+                              <td width="23%" align="right"><span class="task-text-instruct">From
+                            
+                                                        </span></td>
+                              <td width="47%"><span class="task-text-instruct">
+                                <input name="textfield" type="text" class="task-formtext" value="April 1, 2003" size="12">
+                                </span></td>
+                              <td width="26%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('calendarStart','','images/calendar-over.gif',1)"><img src="images/calendar.gif" alt="Choose a Starting Date" name="calendarStart" width="17" height="17" border="0"></a></td>
+                            </tr>
+                            <tr>
+                              <td>&nbsp;</td>
+                              <td align="right"><span class="task-text-instruct">To</span></td>
+                              <td><span class="task-text-instruct">
+                                <input name="textfield2" type="text" class="task-formtext" value="April 30, 2003" size="12">
+                                </span></td>
+                              <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('calendarStart1','','images/calendar-over.gif',1)"><img src="images/calendar.gif" alt="Choose a Starting Date" name="calendarStart1" width="17" height="17" border="0" id="calendarStart1"></a></td>
+                            </tr>
+                          </table></td>
+                      </tr>
+                      <tr>
+                        <td height="35" align="left" valign="bottom"><input name="searchgo2" type="button" id="searchgo" value="Update Summary"></td>
+                      </tr>
+                    </table>
+                    <br>
+                  </form>
+                  <p><img src="images/task-top-tasks.gif" width="179" height="25"><br>
+                    <img src="images/bullet-red.gif" width="3"> <a href="#">Unique Task</a></p></td>
+              </tr>
+            </table>
+            <!-- InstanceEndEditable --> <p class="page-action-context">&nbsp;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+      </table>
+      <p class="table-body">&nbsp;</p></td>
+  </tr>
+</table>
+ 
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CACACA">
+  <tr> 
+    <td valign="bottom"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr bgcolor="#000000"> 
+          <td height="1" valign="top" bgcolor="#DDDDDD"><img src="images/spacer.gif" width="516" height="1"></td>
+          <td height="1" valign="top" bgcolor="#DDDDDD"><img src="images/spacer.gif" width="1" height="1"></td>
+          <td height="1" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/spacer.gif" width="1" height="1"></td>
+        </tr>
+        <tr> 
+          <td height="16" valign="top" bgcolor="#DDDDDD"> <div align="left"> </div></td>
+          <td width="16" height="16" valign="top" bgcolor="#DDDDDD"><div align="right"><img src="images/table-bottomright.gif" width="16" height="16"></div></td>
+          <td width="4" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/table-bottomrightcorner.gif" width="4" height="16"></td>
+        </tr>
+      </table></td>
+    <td width="189" valign="top"> <table border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td bgcolor="#CACACA"></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#CACACA"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</BODY>
+<!-- InstanceEnd --></HTML>

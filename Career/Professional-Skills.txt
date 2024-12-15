@@ -1,0 +1,10 @@
+AWS architecture | AWS Kinesis | RabbitMQ | AWS Elastic Map Reduce | AWS Data Pipeline | AWS Lambda |
+ETL/ELT pipelines | AWS Glue | Apache Avro | Apache Parquet | AWS CLI | JSON | AWS Airflow | AWS Secrets Manager |
+Python | PySpark | PyTest | Boto3 | Anaconda | NodeJS | Vue | Vuetify | JQuery | XML | XSLT | Altova XMLSpy |
+REST | API Gateway | OpenAPI | Swagger | Postman | Linux | Docker | Kubernetes | AWS ECR | ECS | EKS |
+SQL | AWS RDS | PostgreSQL | AWS RedShift | Google BigQuery | SnowFlake | MySQL | DynamoDB | Flyway |
+Java | Spring Boot | Spring JPA | Hibernate | AOP | Servlets | Maven | Ant | Junit | JMeter | Selenium |
+AWS S3 | EBS | EC2 | EFS | AWS SQS | SNS | SES | AWS CloudFormation | Adobe Experience Cloud |
+AWS CloudWatch | DataDog | PagerDuty | Tableau | Segment CDP | Chromium | Terraform | Yml |
+AWS Elastic Beanstalk | AWS SDK | Confluence | Jira | GitLab | GitHub | Jenkins | VSCode | MS Project | MS Excel  |
+Machine Learning | MATLAB | AWS SageMaker | OpenCV | Numpy | Pandas | Keras | Jupyter

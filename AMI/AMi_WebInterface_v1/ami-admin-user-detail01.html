@@ -1,0 +1,851 @@
+<HTML><!-- InstanceBegin template="/Templates/ami-admin-detail-multipage.dwt" codeOutsideHTMLIsLocked="false" -->
+<HEAD>
+<!-- InstanceBeginEditable name="doctitle" -->
+<TITLE>AMI - User Details</TITLE>
+<!-- InstanceEndEditable --> 
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<style type="text/css">
+</style>
+<link href="ami-css-01.css" rel="stylesheet" type="text/css">
+
+<script language="JavaScript" src="ami-code-popups.js" type="text/JavaScript">
+</script>
+
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<!-- InstanceBeginEditable name="head" -->
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+<!-- InstanceEndEditable -->
+</HEAD>
+<BODY BGCOLOR=#626977 LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0 onLoad="MM_preloadImages('images/ami-myaccount-over-01.gif','images/ami-logout-over-01.gif','images/ami-help-over-01.gif','images/ami-lib-menu-albums-over.gif','images/ami-lib-menu-songs-over.gif','images/ami-admin-menu-home-over.gif','images/ami-admin-menu-users-over.gif','images/ami-admin-menu-jb-over.gif')">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="images/topstretch.gif">
+  <tr>
+    <td><table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr valign="top"> 
+          <td> 
+            <table border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td height="1" valign="top"><img src="images/spacer.gif" width="50" height="1"></td>
+                <td width="16" height="1" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+              </tr>
+              <tr> 
+                <td align="left" valign="top"> 
+                    <table border="0" cellspacing="0" cellpadding="0">
+                      
+                    <tr> 
+                        
+                      <td><TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+                          <!--DWLayoutTable-->
+                          <TR> 
+                            <TD width="145" height="49" valign="top"> <img src="images/AMiLogo.gif" width=145 height=49 alt=""></TD>
+                            <TD width="240" valign="middle"  class="page-title"><!-- InstanceBeginEditable name="PageTitle" --><img src="images/icon-user-L.gif" width="32" height="30" align="absmiddle"> 
+                              User Details<!-- InstanceEndEditable --></TD>
+                          </TR>
+                          <tr> 
+                            <td colspan="2">
+															<table border="0" cellspacing="0" cellpadding="0">
+																<TR> 
+																	<TD ROWSPAN=2 valign="top" background="images/menuslice-mid-stretch.gif"> 
+																														<IMG SRC="images/menuslice-left.gif" ALT="" HEIGHT=25></TD>
+                                  <TD height="22" valign="top" background="images/menuslice-mid-stretch.gif"><a href="ami-admin-home.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AdminHome','','images/ami-admin-menu-home-over.gif',1)"><img src="images/ami-admin-menu-home.gif" alt="Home Page" name="AdminHome" width="100" height="22" border="0"></a><a href="ami-admin-user-listing01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AdminUsers','','images/ami-admin-menu-users-over.gif',1)"><img src="images/ami-admin-menu-users.gif" alt="Users" name="AdminUsers" width="100" height="22" border="0"></a><a href="ami-admin-jukebox-listing01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('AdminJukeboxes','','images/ami-admin-menu-jb-over.gif',1)"><img src="images/ami-admin-menu-jb.gif" alt="Jukeboxes" name="AdminJukeboxes" width="100" height="22" border="0"></a></TD>
+                                  <TD ROWSPAN=2 valign="top" background="images/menuslice-mid-stretch.gif"> 
+																														<IMG SRC="images/menuslice-right.gif" HEIGHT=25 ALT=""></TD>
+                                </TR>
+																<TR> 
+																	<TD valign="top" background="images/menuslice-middle.gif"><IMG SRC="images/spacer.gif" WIDTH=20 HEIGHT=3 ALT=""></TD>
+                                </TR>
+															</table></td>
+                          </tr>
+                        </TABLE></td>
+                    </tr>
+                    </table></td>
+              </tr>
+              
+              
+            </table>
+            <table width="100%" border="0" cellpadding="3" cellspacing="0" bgcolor="#566A80">
+              <!--DWLayoutTable-->
+              <tr> 
+                <td width="100%" height="18" valign="top" bgcolor="#566A80" class="table-path"><span class="page-context"><font color="#FFFFFF">go 
+                  back:</font></span> <!-- InstanceBeginEditable name="Links" --><span class="page-context"><a href="ami-admin-home.html"><font color="#98B4CB">Home</font></a> 
+                  | </span><span class="page-context"><a href="ami-detail-album-01.html"></a></span> <span class="page-context"><a href="ami-admin-user-listing01.html"><font color="#98B4CB">Users</font></a> 
+                  |</span> <span class="page-context-short-title">User Details</span><!-- InstanceEndEditable --></td>
+              </tr>
+            </table></td>
+          <td></td>
+          <td> 
+            <table border="0" align="center" cellpadding="3" cellspacing="0">
+              <tr> 
+                <td valign="top"><table border="0" cellspacing="0" cellpadding="0">
+                    <tr> 
+                      <td width="80"><a href="ami-admin-myaccount.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('MyAccount1','','images/ami-myaccount-over-01.gif',1)"><img src="images/ami-myaccount-01.gif" alt="My Account Details" name="MyAccount1" width="78" height="14" border="0" id="MyAccount011"></a></td>
+                      <td width="51"><a href="index.html" target="_top" onMouseOver="MM_swapImage('Logout1','','images/ami-logout-over-01.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/ami-logout-01.gif" alt="Logout Now" name="Logout1" width="49" height="14" border="0" id="Logout011"></a></td>
+                      <td width="52"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Help1','','images/ami-help-over-01.gif',1)"><img src="images/ami-help-01.gif" alt="Help" name="Help1" width="46" height="14" border="0" id="Help011"></a></td>
+                    </tr>
+                    <tr> 
+                      <td height="45" colspan="3" align="center" class="role-username"> 
+                        <p><span class="role-title">ADMINISTRATOR<br>
+                          </span>David Lemont</p>
+                        </td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table>
+            
+          </td>
+        </tr>
+        <tr> 
+          <td ><img src="images/spacer.gif" width="50" height="1"></td>
+          <td width="4"><img src="images/spacer.gif" width="4" height="1"></td>
+          <td width="189"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+ 
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CACACA">
+  <tr> 
+    <td width="100%" height="100%" valign="top"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr bgcolor="#000000"> 
+          <td height="1" valign="top"><img src="images/spacer.gif" width="368" height="1"></td>
+          <td height="1" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+          <td height="1" valign="top"><img src="images/spacer.gif" width="1" height="1"></td>
+        </tr>
+        <tr> 
+          <td rowspan="3" valign="top" bgcolor="#DDDDDD"><div align="left"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr> 
+                  <td> <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr> 
+                        <td><table width="100%" height="25" border="0" cellpadding="0" cellspacing="0">
+                            <tr> 
+                              <td width="1%" height="3"><img src="images/spacer.gif" width="10" height="3"></td>
+                              <td width="99%" height="3"><img src="images/spacer.gif" width="10" height="3"></td>
+                            </tr>
+                            <tr> 
+                              <td></td>
+                              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td width="50%"><!-- InstanceBeginEditable name="ActionTitle" --><span class="page-action-instructions">User 
+                                Details </span><!-- InstanceEndEditable --></td>
+                                    <td width="50%" align="right"><!-- InstanceBeginEditable name="ContainerContext" -->
+                                      <!-- InstanceEndEditable --></td>
+                                  </tr>
+                                </table>
+															</td>
+                            </tr>
+                            <tr> 
+                              <td></td>
+                              <td></td>
+                            </tr>
+                          </table>
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+                              <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr> 
+                                    <td width="10"><img src="images/spacer.gif" width="10" height="5"></td>
+                                    <td> <!-- InstanceBeginEditable name="TopLevel" -->
+                                      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <tr> 
+                                          <td valign="bottom">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                              <tr>
+                                                <td valign="bottom">
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#759EBD">
+                                                    <tr>
+                                                      <td> 
+                                            <table border="0" cellpadding="5" cellspacing="1">
+                                                          <tr align="center"> 
+                                                            <td class="details-tab-highlight"><nobr>&nbsp;&nbsp; Details<strong></strong>&nbsp;&nbsp;&nbsp;</nobr></td>
+                                                            <td class="details-tab-link"><nobr>&nbsp;&nbsp;<a href="ami-admin-user-accounts01.html"><strong>Contracts</strong></a>&nbsp;&nbsp;</nobr></td>
+                                                          </tr>
+                                            </table></td>
+                                                    </tr>
+                                      </table></td>
+                                                <td><table width="100%" border="0" cellpadding="0" cellspacing="3" bgcolor="#DDDDDD">
+                                                    <tr align="center">
+                                                      <td align="right" valign="top"><span class="details-textfields-headers"> </span></td>
+                                                    </tr>
+                                                    <tr align="center">
+                                                      <td align="right" valign="top">&nbsp;</td>
+                                                    </tr>
+                                      </table></td>
+                                                <td>&nbsp;</td>
+                                              </tr>
+                                            </table></td>
+                                        </tr>
+                                      </table>
+                                      <!-- InstanceEndEditable --></td>
+                                  </tr>
+                                </table></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table></td>
+                </tr>
+              </table>
+            </div></td>
+          <td width="16" valign="top" bgcolor="#DDDDDD"><div align="right"><img src="images/table-topright.gif" width="16" height="16"></div></td>
+          <td width="4" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/table-topright-edge.gif" width="4" height="18"></td>
+        </tr>
+        <tr> 
+          <td rowspan="2" bgcolor="#DDDDDD"></td>
+          <td height="12" background="images/table-edge-black.gif" bgcolor="#000000"></td>
+        </tr>
+        <tr> 
+          <td height="12" background="images/table-edge-black.gif" bgcolor="#000000"></td>
+        </tr>
+      </table>
+      <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td width="100%" valign="top" bgcolor="#DDDDDD"> 
+            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td width="100%" valign="top"> 
+                  <table width="100%" border="0" align="left" cellpadding="0" cellspacing="0" bgcolor="#DDDDDD">
+                    <tr> 
+                      <td width="10" align="right" valign="top" bgcolor="#DDDDDD"><img src="images/spacer.gif" width="10" height="10"></td>
+                      <td align="left" valign="top" bgcolor="#DDDDDD">
+                        <table width="100%" border="0" cellpadding="5" cellspacing="0" class="details-tabs-frame">
+                          <tr> 
+                            <td><table width="100%" border="0" cellpadding="2" cellspacing="0">
+                                <tr> 
+                                  <td align="left" valign="top"> 
+                                    <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                                      <tr> 
+                                        <td width="115" valign="top" class="details-page-action-help"><!-- InstanceBeginEditable name="ActionInstructions" -->
+                                          <table width="100%" border="0" cellpadding="1" cellspacing="0" bgcolor="#759EBD">
+                                            <tr>
+                                              <td valign="top">
+<table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                                  <tr>
+                                                    <td bgcolor="#BFE5F4" class="details-container-info-header"><font size="-2">User Information</font></td>
+                                                  </tr>
+                                                </table>
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td height="1"><img src="images/spacer.gif" width="15" height="1"></td>
+                                                  </tr>
+                                                </table>
+                                                <table width="100%" border="0" cellpadding="5" cellspacing="0">
+                                                  
+                                                  
+                                                  <tr>
+                                                    <td bgcolor="#9CC7DC">
+<p class="details-textfields">
+<span class="details-page-action-help"><a href="ami-detail-album-01.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('edit012112','','images/edit-over.gif',1)">
+                                                        </a></span><span class="details-page-action-help">Name: </span><br>
+                                                  <span class="details-textfields">John Sebastian<br>
+                                                        <br>
+                                                        </span><span class="details-page-action-help">ID:</span><span class="details-textfields"> <br>
+                                                        100023<br>
+                                                        </span></p></td>
+                                                  </tr>
+                                                </table></td>
+                                            </tr>
+                                          </table>
+                                          <p>
+                                            User details are used for finding specific Users and for sorting lists of Users.</p>
+                                          <p>Enter respective information and Save the changes.</p>
+                                          <p></p>
+                                          <p><img src="images/spacer.gif" width="100" height="5"></p>
+                                          <!-- InstanceEndEditable --></td>
+                                        <td valign="top" class="details-window"> 
+                                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr> 
+                                              <td valign="top"><!-- InstanceBeginEditable name="MainBody" -->
+                                                    
+                                                <form name="form2" method="post" action="">
+                                                  <table width="100%" border="0" cellspacing="0" cellpadding="5"
+         class="details-window-contents-background">
+                                                    <tr> 
+                                                      <td valign="top">
+          <table width="100%" border="0" cellpadding="0" cellspacing="1" 
+                  class="details-page-action-help">
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                <tr class="details-media-headers">
+                                                                  <td><nobr>Details</nobr></td>
+                                                                </tr>
+                </table></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                       class="details-window-contents-background">
+                                                                <tr valign="top">
+                                                                  <td width="90" align="left" class="details-textfields-headers">
+                                                                    <!-- user name -->
+                      Name:
+
+                                                                                                                                        
+                                                                    
+                                                                    </td>
+                                                                  <td align="left" class="details-textfields-headers">
+<input name="contact name" type="text" class="details-textfields" id="contact name2" value="John Sebastian">
+                                                                  </td>
+                                                                </tr>
+                                                                
+                                                                <!-- user role -->
+                                                                <tr valign="top"> 
+                                                                  <td align="left" class="details-textfields-headers">
+											Role:
+
+                                                                                                                                                                                                                                </td>
+                                                                  <td align="left" class="details-textfields-headers"><select name="menu1" class="details-textfields" onChange="MM_jumpMenu('parent',this,0)">
+                                                                      <option>ACCOUNTANT</option>
+                                                                      <option>ADMINISTRATOR</option>
+                                                                      <option>ASSISTANT</option>
+                                                                      <option>LIBRARIAN</option>
+                                                                      <option selected>OPERATOR</option>
+                                                                      <option>TECHNICIAN</option>
+                                                                    </select></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                </tr>
+                                                                
+                </table></td>
+                                                          </tr>
+                                                        </table>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                 class="details-window-contents-background">
+                                                          <tr>
+                                                            <td height="1"><img src="images/spacer.gif" width="15"
+                                  height="5"></td>
+                                                          </tr>
+                                                        </table>
+                                                        <!-- assistants manager selection -->
+                                                        <!-- SEPARATOR - Select Manager -->
+                                                        <!-- SEPARATOR - Login info -->
+          <table width="100%" border="0" cellpadding="0" cellspacing="1" 
+                  class="details-page-action-help">
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                <tr class="details-media-headers">
+                                                                  <td><nobr>Login Info</nobr></td>
+                                                                </tr>
+                </table></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>
+                                                              <!-- email address -->
+                                                              <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                       class="details-window-contents-background">
+                                                                <tr valign="top"> 
+                                                                  <td width="90" align="left" class="details-textfields-headers">
+                      Email:
+                                                                                                                                        
+                    </td>
+                                                                  <td align="left" class="details-textfields-headers">
+<input name="contactemail" type="text" class="details-textfields" id="contactemail2" value="js23_mail@mail.com">
+                                                                  </td>
+                                                                </tr>
+                                                                
+                                                                <!-- password1 -->
+                                                                <tr valign="top"> 
+                                                                  <td align="left" class="details-textfields-headers">
+                      Password1:
+                                                                    
+                    </td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="pass1" type="password" class="details-textfields" id="pass1" value="123456"></td>
+                                                                </tr>
+                                                                
+                                                                <!-- password2 -->
+                                                                <tr valign="top"> 
+                                                                  <td align="left" class="details-textfields-headers">
+                      Password2:
+                                                                    
+                    </td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="pass2" type="password" class="details-textfields" id="pass22" value="123456"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                </tr>
+                </table></td>
+                                                          </tr>
+                                                        </table>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                 class="details-window-contents-background">
+                                                          <tr>
+                                                            <td height="1"><img src="images/spacer.gif" width="15"
+                                  height="5"></td>
+                                                          </tr>
+                                                        </table>
+                                                        <!-- SEPARATOR - Contact Info -->
+          <table width="100%" border="0" cellpadding="0" cellspacing="1" 
+                  class="details-page-action-help">
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                <tr class="details-media-headers">
+                                                                  <td><nobr>Contact Info</nobr></td>
+                                                                </tr>
+                </table></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                       class="details-window-contents-background">
+                                                                <!-- company name -->
+                                                                <tr valign="top">
+                                                                  <td width="90" align="left" class="details-textfields-headers">Company:</td>
+                                                                  <td align="left" class="details-textfields-headers">
+<input name="pass22" type="text" class="details-textfields" id="pass224" size="30">
+                                                                  </td>
+                                                                </tr>
+                                                                <tr valign="top"> 
+                                                                  <td align="left" class="details-textfields-headers">
+                      Address:</td>
+                                                                  <td align="left" class="details-textfields-headers"><span class="details-textfields-headers">
+                                                                    </span>
+                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                      <tr>
+                                                                        <td><span class="details-textfields-headers">
+                                                                          <input name="CompanyAddress" type="text" class="details-textfields" id="CompanyAddress8" value="2352 NW 32nd St." size="30">
+                                                                          </span></td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td><input name="CompanyAddress2" type="text" class="details-textfields" id="CompanyAddress24" value="Suite #34" size="30"></td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td><input name="CompanyAddress3" type="text" class="details-textfields" id="CompanyAddress34" size="30"></td>
+                                                                      </tr>
+                                                                    </table></td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>City, State:</td>
+                                                                  <td><input name="City" type="text" class="details-textfields" id="City" value="Orlando" size="20">
+                                                                    , 
+                                                                    <select name="State" class="details-textfields" id="select3" onChange="MM_jumpMenu('parent',this,0)">
+                                                                      <option value="#">--</option>
+                                                                      <option value="#">AZ</option>
+                                                                      <option value="#">AR</option>
+                                                                      <option value="#">CA</option>
+                                                                      <option value="#">CZ</option>
+                                                                      <option value="#">CO</option>
+                                                                      <option value="#">CT</option>
+                                                                      <option value="#">DE</option>
+                                                                      <option value="#">DC</option>
+                                                                      <option value="#" selected>FL</option>
+                                                                      <option value="#">GA</option>
+                                                                      <option value="#">GU</option>
+                                                                      <option value="#">HI</option>
+                                                                      <option value="#">ID</option>
+                                                                      <option value="#">IL</option>
+                                                                      <option value="#">IN</option>
+                                                                      <option value="#">IA</option>
+                                                                      <option value="#">KS</option>
+                                                                      <option value="#">KY</option>
+                                                                      <option value="#">LA</option>
+                                                                      <option value="#">ME</option>
+                                                                      <option value="#">MD</option>
+                                                                      <option value="#">MA</option>
+                                                                      <option value="#">MI</option>
+                                                                      <option value="#">MN</option>
+                                                                      <option value="#">MS</option>
+                                                                      <option value="#">MO</option>
+                                                                      <option value="#">MT</option>
+                                                                      <option value="#">NE</option>
+                                                                      <option value="#">NV</option>
+                                                                      <option value="#">NH</option>
+                                                                      <option value="#">NJ</option>
+                                                                      <option value="#">NM</option>
+                                                                      <option value="#">NY</option>
+                                                                      <option value="#">NC</option>
+                                                                      <option value="#">ND</option>
+                                                                      <option value="#">OH</option>
+                                                                      <option value="#">OK</option>
+                                                                      <option value="#">OR</option>
+                                                                      <option value="#">PA</option>
+                                                                      <option value="#">PR</option>
+                                                                      <option value="#">RI</option>
+                                                                      <option value="#">SC</option>
+                                                                      <option value="#">SD</option>
+                                                                      <option value="#">TN</option>
+                                                                      <option value="#">TX</option>
+                                                                      <option value="#">UT</option>
+                                                                      <option value="#">VT</option>
+                                                                      <option value="#">VI</option>
+                                                                      <option value="#">VA</option>
+                                                                      <option value="#">WA</option>
+                                                                      <option value="#">WV</option>
+                                                                      <option value="#">WI</option>
+                                                                      <option value="#">WY</option>
+                                                                    </select></td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>Zip Code:</td>
+                                                                  <td><input name="Zipcode" type="text" class="details-textfields" id="Zipcode3" value="43524" size="20"></td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>Email:</td>
+                                                                  <td><span class="details-textfields">js23_mail@mail.com</span></td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>Phone:</td>
+                                                                  <td><input name="Phone" type="text" class="details-textfields" id="Phone3" value="(245) 235-5321" size="20">
+                                                                    <select name="menu2" class="details-textfields" onChange="MM_jumpMenu('parent',this,0)">
+                                                                      <option selected>Office</option>
+                                                                      <option>Cell</option>
+                                                                      <option>Home</option>
+                                                                      <option>Other</option>
+                                                                    </select>                                                                     </td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>Phone:</td>
+                                                                  <td><input name="Phone2" type="text" class="details-textfields" id="Phone4" value="(245) 221-0987" size="20">
+                                                                    <select name="select" class="details-textfields" onChange="MM_jumpMenu('parent',this,0)">
+                                                                      <option>Office</option>
+                                                                      <option selected>Cell</option>
+                                                                      <option>Home</option>
+                                                                      <option>Other</option>
+                                                                    </select></td>
+                                                                </tr>
+                                                                
+                                                                <tr>
+                                                                  <td>Fax:</td>
+                                                                  <td><input name="Phone22" type="text" class="details-textfields" id="Phone22" value="(123) 456-7890" size="20"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="200" height="5"></td>
+                                                                </tr>
+                                                                
+                                                                
+                                                                <!-- user address -->
+                                                              </table>
+                                                              <!-- user city, state -->
+                                                              <!-- user zip -->
+                                                              <!-- end of contact info -->
+              </td>
+                                                          </tr>
+          </table>
+                                                        <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                 class="details-window-contents-background">
+                                                          <tr>
+                                                            <td height="1"><img src="images/spacer.gif" width="15"
+                                  height="5"></td>
+                                                          </tr>
+                                                        </table>
+                                                        <table width="100%" border="0" cellpadding="0" cellspacing="1" 
+                  class="details-page-action-help">
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                                                                <tr class="details-media-headers">
+                                                                  <td><nobr>Bank Info</nobr></td>
+                                                                </tr>
+                </table></td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="5"
+                       class="details-window-contents-background">
+                                                                <!-- company name -->
+                                                                <tr valign="top">
+                                                                  <td width="120" align="left" class="details-textfields-headers">Bank Name:</td>
+                                                                  <td align="left" class="details-textfields-headers">
+                      <input name="bankName" type="text" class="details-textfields" id="bankName2" value="First Federal Bank">
+                                                                    </td>
+                                                                </tr>
+                                                                
+                                                                <!-- user address -->
+                                                                <tr valign="top">
+                                                                  <td align="left" class="details-textfields-headers">Routing Number:</td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="routing" type="text" class="details-textfields" id="routing2" value="123456789"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td align="left" class="details-textfields-headers">Account Name:</td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="accountName" type="text" class="details-textfields" id="routing" value="Jonathan Sebastian"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td align="left" class="details-textfields-headers">Account Number:</td>
+                                                                  <td align="left" class="details-textfields-headers">
+                      
+                                                                    <input name="account" type="text" class="details-textfields" id="account" value="123456">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td align="left" class="details-textfields-headers">Bank Contact:</td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="bankContact" type="text" class="details-textfields" id="bankContact3" value="Susan Kazowski"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td align="left" class="details-textfields-headers">Contact Phone:</td>
+                                                                  <td align="left" class="details-textfields-headers"><input name="bankContact" type="text" class="details-textfields" id="bankContact3" value="(342) 123-4567"></td>
+                                                                </tr>
+                                                                <tr valign="top">
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="110" height="5"></td>
+                                                                  <td height="5" align="left" class="details-textfields-headers"><img src="images/spacer.gif" width="90" height="5"></td>
+                                                                </tr>
+                                                                
+                                                              </table>
+                                                              <!-- user city, state -->
+                                                              <!-- user zip -->
+                                                              <!-- end of contact info -->
+              </td>
+                                                          </tr>
+          </table></td>
+                                                    </tr>
+					                                        </table>
+                                                </form>
+                                                <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                                          
+                                                  <tr> 
+                                                            
+                                                    <td width="50%"> 
+                                                                    <div align="right"> 
+                                                                      
+                                                                
+                                                        <input name="Save" type="button" id="Save" value="Save">
+                                                                    </div></td>
+                                                    <td width="50%"><input name="Cancel" type="button" id="Cancel" value="Cancel">
+                                                                  </td>
+                                                  </tr>
+                                                              
+                                                </table>
+                                                <!-- InstanceEndEditable --> 
+                                                </tr>
+                                          </table></tr>
+                                    </table></td>
+                                </tr>
+                              </table></td>
+                          </tr>
+                        </table></td>
+                      <td width="16" valign="top"><img src="images/spacer.gif" width="16" height="10"></td>
+                    </tr>
+                  </table></td>
+                <td width="4" background="images/table-rightedge.gif"><img src="images/spacer.gif" width="4" height="1"></td>
+              </tr>
+              <tr> 
+                <td height="1" bgcolor="#DDDDDD"></td>
+                <td background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/table-rightedge.gif" alt="" width="4" height="1"></td>
+              </tr>
+              <tr>
+                <td height="1" valign="top" bgcolor="#DDDDDD"><br>
+                  <TABLE cellSpacing=0 cellPadding=0 width="100%" 
+border=0>
+                          
+                    <TBODY>
+                          
+                      <TR>
+                            
+                        <TD width=10><IMG height=5 
+                              src="images/spacer.gif" width=10></TD>
+                        <TD>
+                              <TABLE class=legend-frame cellSpacing=1 
+                              cellPadding=0 width="100%" border=0>
+                                
+                            <TBODY>
+                                
+                              <TR>
+                                <TD>
+                                <TABLE class=legend-header cellSpacing=0 
+                                cellPadding=5 width="100%" border=0>
+                                    <TBODY>
+                                      <TR>
+                                        <TD class=legend-header 
+                                width="100%">Legend</TD>
+                                      </TR>
+                                    </TBODY>
+                                  </TABLE></TD>
+                              </TR>
+                                
+                              <TR>
+                                <TD>
+                                <!-- InstanceBeginEditable name="Legend" -->
+                                  <table class=legend-window cellspacing=5 
+                                cellpadding=0 width="100%" border=0>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                <table cellspacing=0 cellpadding=0 border=0>
+                                            <tbody>
+                                              <tr>
+                                                <td class=legend-subheader>Create/Edit Status 
+                                Icons</td>
+                                              </tr>
+                                              <tr>
+                                                <td class=legend-description>These icons show 
+                                what Edit Status an object has. The object's 
+                                Edit Status will not take affect until you 
+                                Finalize Changes.</td>
+                                              </tr>
+                                              <tr>
+                                                <td>
+                                <table cellspacing=3 cellpadding=0 border=0>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td class=legend-column-even><img 
+                                src="images/ami_cud_create.gif"></td>
+                                                        <td 
+                                class=legend-column-even><nobr>Created</nobr></td>
+                                                        <td>&nbsp;|&nbsp;</td>
+                                                        <td class=legend-column-even><img 
+                                src="images/ami_cud_update.gif"></td>
+                                                        <td 
+                                class=legend-column-even><nobr>Updated</nobr></td>
+                                                        <td>&nbsp;|&nbsp;</td>
+                                                        <td class=legend-column-even><img 
+                                src="images/ami_cud_delete.gif"></td>
+                                                        <td 
+                                class=legend-column-even><nobr>Deleted</nobr></td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table></td>
+                                              </tr>
+                                            </tbody>
+                                          </table></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <!-- InstanceEndEditable --></TD>
+                              </TR>
+                            </TBODY>
+                          </TABLE></TD>
+                        <TD width=10><p><IMG height=5 
+                              src="images/ami_spacer.gif" 
+width=10></p>
+                          </TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+                  </td>
+                <td background="images/table-rightedge.gif" bgcolor="#CACACA">&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+              
+        <tr> 
+                
+          <td width="100%" height="100%" valign="top" bgcolor="#DDDDDD">&nbsp; 
+                  </td>
+          <td width="4" background="images/table-rightedge.gif"><img src="images/spacer.gif" width="4" height="1"></td>
+        </tr>
+              
+        
+              
+        
+            </table><td width="189" valign="top"> <table width="100" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td height="1" valign="top" bgcolor="#000000"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+        <tr> 
+          <td valign="top" bgcolor="#CACACA"> <!-- InstanceBeginEditable name="TaskArea" -->
+            <table width="100%" border="0" cellspacing="0" cellpadding="3">
+              <tr> 
+                <td><img src="images/task-top-tasks.gif" width="179" height="25"><br>
+									<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr valign="top">
+                      <td width="6%"><img src="images/bullet-red.gif" width="3"></td>
+                      <td width="94%"><a href="ami-admin-user-detail01.html">Create a New User</a></td>
+                    </tr>
+                    <tr valign="top">
+                      <td colspan="2"><img src="images/spacer.gif" width="20" height="5"></td>
+                    </tr>
+                    <tr valign="top">
+                      <td><img src="images/bullet-red.gif" width="3"></td>
+                      <td><a href="#">Delete this User</a></td>
+                    </tr>
+                    <tr valign="top">
+                      <td colspan="2"><img src="images/spacer.gif" width="20" height="5"></td>
+                    </tr>
+                    <tr valign="top">
+                      <td><img src="images/bullet-red.gif" width="3"></td>
+                      <td><a href="#">Login as this User</a></td>
+                    </tr>
+                    <tr valign="top">
+                      <td colspan="2"><img src="images/spacer.gif" width="20" height="5"></td>
+                    </tr>
+                    <tr valign="top">
+                      <td><img src="images/bullet-red.gif" width="3"></td>
+                      <td><a href="ami-admin-operator-contract-new01.html">Create a New Contract for this User</a>                  </td>
+                    </tr>
+                    <tr valign="top">
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table>
+<p>&nbsp;</p>
+                  </td>
+              </tr>
+            </table>
+            <!-- InstanceEndEditable --> <p class="page-action-context">&nbsp;</p>
+            <p>&nbsp;</p></td>
+        </tr>
+      </table>
+      <p class="table-body">&nbsp;</p></td>
+  </tr>
+</table>
+ 
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#CACACA">
+  <tr> 
+    <td valign="bottom"> <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <!--DWLayoutTable-->
+        <tr bgcolor="#000000"> 
+          <td height="1" valign="top" bgcolor="#DDDDDD"><img src="images/spacer.gif" width="368" height="1"></td>
+          <td height="1" valign="top" bgcolor="#DDDDDD"><img src="images/spacer.gif" width="1" height="1"></td>
+          <td height="1" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/spacer.gif" width="1" height="1"></td>
+        </tr>
+        <tr> 
+          <td height="16" valign="top" bgcolor="#DDDDDD"> <div align="left"> </div></td>
+          <td width="16" height="16" valign="top" bgcolor="#DDDDDD"><div align="right"><img src="images/table-bottomright.gif" width="16" height="16"></div></td>
+          <td width="4" valign="top" background="images/table-rightedge.gif" bgcolor="#CACACA"><img src="images/table-bottomrightcorner.gif" width="4" height="16"></td>
+        </tr>
+      </table></td>
+    <td width="189" valign="top"> <table border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td bgcolor="#CACACA"></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#CACACA"><img src="images/spacer.gif" width="189" height="1"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+</BODY>
+<!-- InstanceEnd --></HTML>
